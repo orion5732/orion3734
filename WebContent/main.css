@@ -1,0 +1,156 @@
+@charset "UTF-8";
+* {
+	margin: 0;
+	padding: 0;
+	background-color: orange;
+}
+
+body {
+	width: 1920px;
+	height: 850px;
+}
+
+#big {
+	/*  */
+	position: relative;
+	width: 80%;
+	height: 80%;
+	margin: auto;
+	margin-top: 60px;
+}
+
+.click {
+	position: absolute;
+	z-index: 2;
+	width: 150px;
+	height: 150px;
+	border: 1px solid;
+	font-family: myFirstFont;
+}
+
+#food {
+	top: 200px;
+	right: 540px;
+}
+
+#food-img {
+	position: absolute;
+	z-index: 2;
+	top: 200px;
+	right: 230px;
+	width: 300px;
+	height: 150px;
+	border: 1px solid;
+}
+
+#info {
+	top: 360px;
+	right: 230px;
+}
+
+#info-img {
+	position: absolute;
+	z-index: 2;
+	top: 360px;
+	right: 390px;
+	width: 300px;
+	height: 150px;
+	border: 1px solid;
+}
+
+#play {
+	top: 520px;
+	left: 230px;
+}
+
+#play-slider {
+	position: absolute;
+	top: 200px;
+	left: 230px;
+	width: 600px;
+	height: 310px;
+	border: 1px solid;
+}
+
+.bx-wrapper img {
+	width: 140px;
+	height: 140px;
+}
+
+#play-img {
+	width: 600px;
+	height: 310px;
+}
+
+#support {
+	top: 520px;
+	right: 390px;
+}
+
+#support-img {
+	position: absolute;
+	z-index: 2;
+	top: 520px;
+	right: 230px;
+	width: 150px;
+	height: 150px;
+	border: 1px solid;
+}
+
+.bx-wrapper {
+	height: 310px;
+}
+
+.bx-wrapper ul li {
+	height: 310px;
+}
+
+@font-face {
+	font-family: myFirstFont;
+	src: url(font/gabia_solmee.ttf);
+}
+
+#dol {
+	position: absolute;
+	z-index: 1;
+	bottom: -100px;
+	right: -300px;
+	width: 640px;
+	height: 480px;
+}
+
+#login {
+
+	position: absolute;
+	top: 610px;
+	left: 670px;
+}
+button {
+	font-family: myFirstFont;
+	font-size:20px;
+	position: absolute;
+	top: 620px;
+	left: 580px;
+	width:80px;
+	height: 45px;
+}
+
+#login label {
+	display: inline-block;
+	width: 70px;
+}
+
+#login input {
+	margin-left: 10px;
+}
+
+#login input[type="submit"] {
+	width: 50px;
+}
+
+#login input[type="reset"] {
+	width: 50px;
+}
+#login div{
+margin-top: 5px;
+}

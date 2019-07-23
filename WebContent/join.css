@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+#menu {
+	display: inline-block;
+}
+#not{
+display: inline-block;
+}
+
+#menu span {
+	display: inline-block;
+	text-align: center;
+	width: 100px;
+	height: 25px;
+	line-height: 25px;
+}
+
+#one {
+	background-color: blue;
+}
+
+#two {
+	background-color: skyblue;
+}
+
+ul li {
+	list-style: none;
+	vertical-align: middle;
+}
+
+#not {
+	display: none;
+}
+
+fieldset {
+	width: 192px;
+}
