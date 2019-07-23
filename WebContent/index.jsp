@@ -11,11 +11,10 @@
 <link rel="stylesheet" href="main.css">
 <link rel="stylesheet" href="join.css">
 <style type="text/css">
-#join {
-width: 300px;
-	position: relative;
-	top: -600px;
-	/*  */
+.bxslider div{
+position:absolute;
+font-size: 40px;
+color:white;
 }
 </style>
 <script type="text/javascript">
@@ -38,12 +37,19 @@ width: 300px;
 			$("#not").css("display", "none");
 			$("#nomarl").css("display", "block");
 		})
+		$("#joinbtn").click(function() {
+			$("#join").fadeToggle('slow');
+		})
+		$('input[value="가입"]').click(function() {
+			$("#join").fadeToggle('slow');
+		})
+
 	});
 </script>
 </head>
 <body>
 	<div id="big">
-		<div class="click" id="food">음식점</div>
+		<img src="img/food.png" class="click" id="food">
 		<img src="img/food.jpg" id="food-img">
 
 		<div class="click" id="info">
@@ -54,8 +60,8 @@ width: 300px;
 		<div class="click" id="play">관광</div>
 		<div id="play-slider">
 			<ul class="bxslider">
-				<li><img src="img/slider1.jpg" id="play-img" /></li>
-				<li><img src="img/slider2.jpg" id="play-img" /></li>
+				<li><div id="test"><h1>여기 어디?</h1></div><img src="img/slider1.jpg" id="play-img"/></li>
+				<li><div style="position:absolute;"><h1>여기 어디?</h1></div><img src="img/slider2.jpg" id="play-img"/></li>
 			</ul>
 		</div>
 		<div class="click" id="support">고객지원</div>
@@ -73,7 +79,7 @@ width: 300px;
 			</form>
 		</div>
 		<img src="img/dol.png" id="dol">
-		<button>회원가입</button>
+		<button id="joinbtn">회원가입</button>
 	</div>
 	<div id="join">
 		<div id="menu">

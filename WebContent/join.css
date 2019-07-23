@@ -6,11 +6,17 @@
 #not{
 display: inline-block;
 }
-
+#join {
+	margin-left:20px;
+	width: 300px;
+	position: relative;
+	top: -600px;
+	display: none;
+}
 #menu span {
 	display: inline-block;
 	text-align: center;
-	width: 100px;
+	width: 98px;
 	height: 25px;
 	line-height: 25px;
 }
@@ -34,4 +40,21 @@ ul li {
 
 fieldset {
 	width: 192px;
+}
+#join li input[value="가입"]{
+	margin-left:25px;
+	width:50px;
+	margin-bottom: 5px;
+}
+#join li input[value="취소"]{
+	margin-left:25px;
+	width:50px;
+	margin-bottom: 5px;
+}
+#join label{
+	margin-left: 10px;
+}
+#join input{
+	margin-left: 8px;
+	margin-top: 5px;
 }
