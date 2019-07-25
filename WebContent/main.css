@@ -1,8 +1,8 @@
 @charset "UTF-8";
+
 * {
 	margin: 0;
 	padding: 0;
-	background-color: orange;
 }
 
 body {
@@ -14,7 +14,7 @@ body {
 	/*  */
 	position: relative;
 	width: 80%;
-	height: 80%;
+	height: 85%;
 	margin: auto;
 	margin-top: 60px;
 }
@@ -26,14 +26,19 @@ body {
 	height: 150px;
 	border: 1px solid;
 	font-family: myFirstFont;
+	font-size: 50px;
 }
 
 #food {
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	top: 200px;
 	right: 540px;
 }
 
-#food-img {
+/* #food-img {
 	position: absolute;
 	z-index: 2;
 	top: 200px;
@@ -41,6 +46,21 @@ body {
 	width: 300px;
 	height: 150px;
 	border: 1px solid;
+} */
+#food img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#play img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 #info {
@@ -72,6 +92,14 @@ body {
 	border: 1px solid;
 }
 
+#trip{
+	position: absolute;
+	top: 200px;
+	left: 230px;
+	
+	
+}
+
 .bx-wrapper img {
 	width: 140px;
 	height: 140px;
@@ -83,11 +111,15 @@ body {
 }
 
 #support {
-	top: 520px;
-	right: 390px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	top: 200px;
+	right: 230px;
 }
 
-#support-img {
+/* #support-img {
 	position: absolute;
 	z-index: 2;
 	top: 520px;
@@ -95,8 +127,7 @@ body {
 	width: 150px;
 	height: 150px;
 	border: 1px solid;
-}
-
+} */
 .bx-wrapper {
 	height: 310px;
 }
@@ -110,47 +141,50 @@ body {
 	src: url(font/gabia_solmee.ttf);
 }
 
-#dol {
+/* #dol {
 	position: absolute;
 	z-index: 1;
 	bottom: -100px;
 	right: -300px;
 	width: 640px;
 	height: 480px;
-}
-
+} */
 #login {
-
 	position: absolute;
-	top: 610px;
-	left: 670px;
+	top: 580px;
+	left: 1070px;
 }
+
 button {
 	font-family: myFirstFont;
-	font-size:20px;
+	font-size: 20px;
 	position: absolute;
-	top: 620px;
-	left: 580px;
-	width:80px;
+	top: 650px;
+	right: 220px;
+	width: 80px;
 	height: 45px;
 }
 
 #login label {
 	display: inline-block;
 	width: 70px;
+	right: 230px;
 }
 
 #login input {
-	margin-left: 10px;
+	margin-left: 2px;
 }
 
 #login input[type="submit"] {
-	width: 50px;
+	font-family: myFirstFont;
+	font-size: 20px;
+	position: absolute;
+	top: 71px;
+	left: 70px;
+	width: 80px;
+	height: 45px;
 }
 
-#login input[type="reset"] {
-	width: 50px;
-}
-#login div{
-margin-top: 5px;
+#login div {
+	margin-top: 5px;
 }

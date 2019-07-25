@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="join.css">
 <style type="text/css">
 #join {
-width: 300px;
+	width: 300px;
 	position: relative;
 	top: -600px;
 	/*  */
@@ -43,23 +43,29 @@ width: 300px;
 </head>
 <body>
 	<div id="big">
-		<div class="click" id="food">음식점</div>
-		<img src="img/food.jpg" id="food-img">
+		<div class="click" id="food">
+			<img src="img/fodd.jpg" id="food-icon">
+		</div>
+		<!-- <img src="img/food.jpg" id="food-img"> -->
 
 		<div class="click" id="info">
 			<a href="info.jsp">관광지 정보</a>
 		</div>
 		<img src="img/info.jpg" id="info-img">
 
-		<div class="click" id="play">관광</div>
+		<div class="click" id="play">
+			<img src="img/plag.png" id="cose-icon">
+		</div>
+		<div class="click" id="trip"></div>
 		<div id="play-slider">
 			<ul class="bxslider">
-				<li><img src="img/slider1.jpg" id="play-img" /></li>
-				<li><img src="img/slider2.jpg" id="play-img" /></li>
+				<li><img src="img/jj3.png" id="play-img" /></li>
+				<li><img src="img/jj2.jpg" id="play-img" /></li>
+
 			</ul>
 		</div>
-		<div class="click" id="support">고객지원</div>
-		<img src="img/support.jpg" id="support-img">
+		<div class="click" id="support">Q&A</div>
+		<!-- <img src="img/support.jpg" id="support-img"> -->
 		<div id="login">
 			<form>
 				<div>
@@ -67,12 +73,11 @@ width: 300px;
 						type="submit" value="로그인">
 				</div>
 				<div>
-					<label for="pw">비밀번호</label><input type="text" id="pw"><input
-						type="reset" value="취소">
+					<label for="pw">비밀번호</label><input type="text" id="pw">
 				</div>
 			</form>
 		</div>
-		<img src="img/dol.png" id="dol">
+		<!-- <img src="img/dol.png" id="dol"> -->
 		<button>회원가입</button>
 	</div>
 	<div id="join">
